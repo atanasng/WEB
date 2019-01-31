@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>zad 3</title>
+		<script type="text/javascript">
+			function proverka()
+			{
+				if(document.moqta_forma.psw1.value === document.moqta_forma.psw2.value)
+				{
+					alert("syvpada")
+				}
+				else
+				{
+					alert("nesyvpada")
+					document.moqta_forma.psw1.value = "";
+					document.moqta_forma.psw2.value = "";
+					document.moqta_forma.psw1.focus();
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<form name="moqta_forma">
+			<input type="password" name="psw1">
+			<input type="text" name="psw2">
+			<input type="button" value="click me" onClick="proverka()">
+		</form>
+	</body>
+</html>

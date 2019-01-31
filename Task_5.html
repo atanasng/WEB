@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>zad 2</title>
+		<script type="text/javascript">
+			function proverka()
+			{
+				var a =document.moqta_forma.psw1.value;
+				var b =a.split("");
+				if(b.length != 10)
+				{
+					alert("error")
+					//document.moqta_forma.psw1.value = "";//не е задължително няма го в условието
+					
+					//document.moqta_forma.psw1.focus();//не е задължително няма го в условието					//надявах се бонус
+				}
+				
+			}
+		</script>
+	</head>
+	<body>
+		<form name="moqta_forma">
+			ЕГН:<input type="text" name="psw1">
+			
+			<input type="button" value="click me" onClick="proverka()">
+		</form>
+	</body>
+</html>

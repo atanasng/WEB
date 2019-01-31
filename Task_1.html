@@ -1,0 +1,27 @@
+
+<html>
+	<head>
+		<title>zad 1</title>
+		<script type="text/javascript">
+			var a = new Array();
+			var i=0;
+			var n=10;
+			for(i=0;i<n;i++)
+			{
+				a[i]=eval(prompt("vyv"))
+			}
+			var s=1;
+			for(i=0;i<n;i++)
+			{
+				if(a[i]%2!=0) s = s * a[i]
+			}
+			
+			for(i=0;i<n;i++)
+			{
+				document.write("a(" + i + ")=" + a[i] + "</br>" )
+			}
+			document.write(s)
+		</script>
+	</head>
+	
+</html>
