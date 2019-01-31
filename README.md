@@ -1,2 +1,2 @@
 # WEB
-HTML and JavaScript University tasks.
+HTML and JavaScript university tasks.
